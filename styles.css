@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+.inner-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+#header {
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+    
+.navigation-item {
+    padding: 10px;
+}
+.phone {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.phone-icon {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50%;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    max-width: 40%;
+    color: #78716c;
+}
+.button-large {
+    background-color: #F97316;
+    color:white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+.benefits {
+  margin: 0 auto;
+  padding: 100px 0 70px;
+  border:solid;
+}
+
+.benefits-title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.benefits-list {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ 
+}
+
+.benefits-list_item {
+    background-color: #fafaf9;
+    border:none;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+.benefits-icon {
+    font-size: 40px;
+    margin: 15px;
+    align-items: center;
+    
+}
+
+.benefits-list_item-icon {
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: #F97316;
+    border-radius: 20px;
+    border: solid;
+}
