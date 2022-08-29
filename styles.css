@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif; 
+    color: #1C1917;
 }
 
 .hero {
@@ -8,20 +9,24 @@ body {
     background-size: cover;
     background-position: center top;
 }
+
 .inner-container {
     margin-left: auto;
     margin-right: auto;
     width: 1024px;
 }
+
 #header {
     height: 100px;
     display:flex;
     justify-content: space-between;
 }
+
 .logo {
     width: 100px;
     height: 100px;
 }
+
 #nav {
     display: flex;
     align-items: center;
@@ -31,11 +36,13 @@ body {
 .navigation-item {
     padding: 10px;
 }
+
 .phone {
     display: flex;
     padding: 10px;
     align-items: center;
 }
+
 .phone-icon {
     font-size: 15px;
     margin-right: 10px;
@@ -48,13 +55,23 @@ body {
     margin-bottom: 50px;
     max-width: 50%;
 }
+
+p {
+    color: #78716c;
+}
+
 .hero-text {
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     max-width: 40%;
-    color: #78716c;
+    line-height: 22px;
 }
+
+.hero-button {
+    padding-bottom: 200px;
+}
+
 .button-large {
     background-color: #F97316;
     color:white;
@@ -62,20 +79,16 @@ body {
     padding: 16px 32px;
     border-radius: 8px;
     font-size: 20px;
-    margin-bottom: 200px;
 }
 
 .benefits {
-  margin: 0 auto;
-  padding: 100px 0 70px;
-  border:solid;
+    padding-top: 80px;
 }
 
-.benefits-title {
-    font-size: 35px;
+.main-title {
+    font-size: 37px;
     text-align: center;
-    font-weight: 700;
-
+    font-weight: 800;
 }
 
 .benefits-list {
@@ -83,37 +96,94 @@ body {
      justify-content: space-between;
      padding-top: 50px;
      padding-bottom: 50px;
- 
+     gap:20px;
 }
 
 .benefits-list_item {
     background-color: #fafaf9;
     border:none;
-    width: 300px;
-    height: 150px;
-    text-align: center;
+    width: 30%;
+    line-height: 22px;
     border-radius: 15px;
-    padding: 20px 5px; 
+    padding: 20px; 
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     gap: 10px;
-
 }
+
 .benefits-icon {
-    font-size: 40px;
+    font-size: 30px;
     margin: 15px;
     align-items: center;
-    
+}
+
+h2 {
+    font-size: 18px;
 }
 
 .benefits-list_item-icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     color: white;
     background-color: #F97316;
-    border-radius: 20px;
-    border: solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 4px #d6d3d1
+}
+
+.about-school_item {
+    display: flex;
+
+}
+
+.about-school_item_contant {
+    max-width: 50%;
+}
+
+.img_group-people {
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-school_title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 50px 0 50px;
+}
+
+.about-school_item_text {
+    margin-bottom: 20px;
+    color:#44403C;
+    line-height: 19px;
+}
+.form {
+    background-color: #ffedd5;
+    padding-top: 80px;
+}
+
+.form_item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-bottom: 120px;
+}
+
+.form-item_input {
+    height: 50px;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.form-text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
