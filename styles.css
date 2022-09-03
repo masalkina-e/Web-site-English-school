@@ -39,8 +39,20 @@ body {
     font-weight: 200;
 }
     
-.navigation-item {
+.navigation-item-price {
     padding: 10px;
+}
+
+.navigation-item-price:hover {
+    color:var(--primary-icon-color)
+}
+
+.navigation-item-reviews {
+    padding: 10px;
+}
+
+.navigation-item-reviews:hover {
+    color:var(--primary-icon-color)
 }
 
 .phone {
