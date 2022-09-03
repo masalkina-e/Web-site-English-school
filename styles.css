@@ -4,6 +4,12 @@ body {
     color: #1C1917;
 }
 
+:root {
+    --primary-color: #fafaf9;
+    --primary-text-color:#FFEDD5;
+    --primary-icon-color:#F97316;
+} 
+
 .hero {
     background-image: url("hero.jpg");
     background-size: cover;
@@ -72,12 +78,17 @@ p {
 }
 
 .button-large {
-    background-color: #F97316;
+    background-color: var(--primary-icon-color);
     color:white;
     border: none;
     padding: 16px 32px;
     border-radius: 8px;
     font-size: 20px;
+}
+
+.button-large:hover {
+    background-color:white ;
+    color:#F97316;
 }
 
 .benefits {
@@ -99,7 +110,7 @@ p {
 }
 
 .benefits-list_item {
-    background-color: #fafaf9;
+    background-color: var(--primary-color);
     border:none;
     width: 30%;
     line-height: 22px;
@@ -127,7 +138,7 @@ h2 {
     width: 60px;
     height: 60px;
     color: white;
-    background-color: #F97316;
+    background-color: var(--primary-icon-color);
     border-radius: 10px;
     margin-bottom: 5px;
     box-shadow: 1px 1px 4px #d6d3d1
@@ -162,7 +173,7 @@ h2 {
     line-height: 19px;
 }
 .form {
-    background-color: #ffedd5;
+    background-color: var(--primary-text-color);
     padding-top: 85px;
 }
 
@@ -191,7 +202,7 @@ h2 {
 }
 
 .reviews {
-    background-color: #fafaf9;
+    background-color: var(--primary-color);
     padding: 80px 0 60px;
 }
 
@@ -215,7 +226,7 @@ h2 {
 }
 
 .subscription {
-    padding: 90px 0 60px;
+    padding: 90px 0 100px;
 }
 
 .subscription_list {
@@ -238,7 +249,6 @@ h2 {
     justify-content: space-between;
     gap: 7px;
 
-
 }
 
 .subscription-details {
@@ -246,7 +256,6 @@ h2 {
     flex-direction: column;
     align-content:flex-start;
     flex-grow: 2;
-
     gap:10px;
 }
 
@@ -258,7 +267,7 @@ h2 {
     font-size: 17px;
     font-weight: 400;
     margin-top: 20px;
-    color: #F97316;
+    color: var(--primary-icon-color);
 }
 
 .subcription_price {
@@ -274,8 +283,8 @@ h2 {
     padding-right: 7px;
 }
 
-.buttom-small {
-    background-color: #FFEDD5;
+.button-small {
+    background-color:  var(--primary-text-color);
     border-radius: 8px;
     color: #EA580C;
     border: none;
@@ -283,4 +292,53 @@ h2 {
     margin-top: 20px;
     font-size: 17px;
     text-align: center;
+}
+
+.button-small:hover {
+    background-color: #EA580C;
+    color:var(--primary-text-color);
+}
+
+footer {
+    background-color:#E7E5E4;
+    color:#78716c;
+}
+
+.footer-inner-conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 70px;
+}
+
+.footer-phone {
+    display: flex;
+}
+
+.footer-icons {
+    display: flex;
+    font-size: 25px;
+}
+
+.instagram-icon {
+    padding: 0 5px;
+}
+
+.instagram-icon:hover {
+    color: var(--primary-icon-color);
+}
+
+.facebook-icon {
+    padding: 0 5px;
+}
+
+.facebook-icon:hover {
+    color: var(--primary-icon-color);
+}
+
+.twitter-icon {
+    padding: 0 5px;   
+}
+
+.twitter-icon:hover {
+    color:var(--primary-icon-color);
 }
