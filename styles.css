@@ -360,14 +360,11 @@ footer {
 }
 
 @media (max-width:600px) {
-    
-    .hero {
-        <div class="overlay"> 
-            background-color: black;
-            opacity: 0.5;
-        </div>
-    }
 
+    .hero {
+        background-color: rgba(0, 0, 0, 0.847);
+    }
+       
     .inner-container {
         padding: 10px 20px;
     } 
