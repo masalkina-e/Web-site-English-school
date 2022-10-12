@@ -44,14 +44,16 @@ body {
     
 .navigation-item-price {
     padding: 10px;
+    text-decoration-line: none;
 }
 
 .navigation-item-price:hover {
-    color:var(--primary-icon-color)
+    color:var(--primary-icon-color);
 }
 
 .navigation-item-reviews {
     padding: 10px;
+    text-decoration-line: none;
 }
 
 .navigation-item-reviews:hover {
@@ -362,7 +364,8 @@ footer {
 @media (max-width:600px) {
 
     .hero {
-        background-color: rgba(0, 0, 0, 0.847);
+        background-color: rgba(0, 0, 0, 0.096);
+        background-blend-mode: multiply;
     }
        
     .inner-container {
@@ -483,4 +486,17 @@ footer {
         gap: 20px;
         justify-content: center;
     }
+
 }
+
+@media (max-width: 414px) {
+    .img_group-people {
+        width: 350px;
+        height: 300px;
+    }
+
+#nav {
+    margin: 0;
+}
+
+} 
