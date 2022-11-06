@@ -45,6 +45,7 @@ body {
 .navigation-item-price {
     padding: 10px;
     text-decoration-line: none;
+    color: #57534E;
 }
 
 .navigation-item-price:hover {
@@ -54,6 +55,7 @@ body {
 .navigation-item-reviews {
     padding: 10px;
     text-decoration-line: none;
+    color: #57534E;
 }
 
 .navigation-item-reviews:hover {
@@ -149,6 +151,7 @@ p {
 h2 {
     font-size: 18px;
     font-weight: 100;
+    text-align: center;
 }
 
 .benefits-list_item-icon {
@@ -364,8 +367,7 @@ footer {
 @media (max-width:600px) {
 
     .hero {
-        background-color: rgba(0, 0, 0, 0.096);
-        background-blend-mode: multiply;
+        background-image: linear-gradient(to right, #ffffff70 100%, transparent 100%), url(hero.jpg);
     }
        
     .inner-container {
@@ -438,6 +440,7 @@ footer {
     .about-school_title {
         font-size: 40px;
         font-weight: 800;
+        text-align: center;
     }
 
     .about-school_item_text {
@@ -498,5 +501,38 @@ footer {
 #nav {
     margin: 0;
 }
+
+.hero-title {
+    font-size: 45px;
+}
+
+.phone {
+    font-size: 18px;
+}
+
+.main-title {
+    font-size: 35px;
+}
+
+.benefits-list {
+    padding: 50px 30px 0;
+}
+
+.subcription_price {
+    line-height: 25px;
+}
+
+.subscription {
+    padding: 30px 0;
+}
+
+p {
+    line-height: 20px;
+}
+
+.img_group-people {
+    width: 300px;
+}
+
 
 } 
